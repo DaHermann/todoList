@@ -1,0 +1,58 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.todo{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.todo ul{
+    margin-top: 10px;
+}
+
+.todo ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+}
+
+.btn{
+    margin: 5px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: none;
+}
+
+.getVal{
+    width: 80%;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid lightblue;
+}
+
+.getVal:focus{
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+}
+input[type='checkbox']{
+    margin: 6px;
+}
+.sup{
+    padding: 3px 5px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+}
